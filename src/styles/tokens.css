@@ -1,0 +1,60 @@
+:root {
+  /* Color Palette - Warm, elegant, nostalgic */
+  --color-ivory: #faf7f2;
+  --color-cream: #f5efe6;
+  --color-champagne: #e6d9c6;
+  --color-gold-muted: #b8a082;
+  --color-cocoa: #6b4f3a;
+  --color-charcoal: #3d342a;
+  --color-warm-brown: #4a3f35;
+  --color-blush: #d4a574;
+  --color-terracotta: #a67c52;
+  
+  /* Text colors */
+  --color-text-primary: #3d342a;
+  --color-text-secondary: #6b4f3a;
+  --color-text-light: #8b7355;
+  
+  /* Backgrounds */
+  --color-bg-primary: #faf7f2;
+  --color-bg-secondary: #f5efe6;
+  --color-bg-accent: #e6d9c6;
+  
+  /* Borders and shadows */
+  --color-border: #d4c4b0;
+  --shadow-soft: 0 4px 20px rgba(107, 79, 58, 0.08);
+  --shadow-elegant: 0 8px 30px rgba(107, 79, 58, 0.12);
+  --shadow-deep: 0 12px 40px rgba(107, 79, 58, 0.16);
+  
+  /* Typography */
+  --font-serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  --font-handwritten: 'Dancing Script', 'Brush Script MT', cursive;
+  
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  --space-4xl: 6rem;
+  
+  /* Transitions */
+  --transition-smooth: all 0.3s ease;
+  --transition-gentle: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
