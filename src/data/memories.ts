@@ -111,6 +111,16 @@ export const photos: Photo[] = [
     section: 'collage',
     order: 3,
   },
+  {
+    id: 'mumbai-award-ceremony',
+    filename: 'Mumbai Award Ceremony.jpeg',
+    path: '/images/Mumbai Award Ceremony.jpeg',
+    alt: 'Me, my mom and my uncle at the Mumbai award ceremony',
+    caption: 'Mumbai Award Ceremony - Me, Mummy and Navin Mama',
+    section: 'mumbai-award',
+    order: 1,
+    primary: true,
+  },
 ];
 
 export const konkaniPhrases: KonkaniPhrase[] = [

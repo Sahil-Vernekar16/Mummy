@@ -410,6 +410,15 @@ class MummyBirthdayApp {
       collageContainer.appendChild(frameDiv);
       new PhotoFrame(frameDiv, photo);
     });
+
+    // Award photos
+    const awardPhotos = getPhotosBySection('mumbai-award');
+    const awardContainer = document.getElementById('award-photos')!;
+    awardPhotos.forEach(photo => {
+      const frameDiv = document.createElement('div');
+      awardContainer.appendChild(frameDiv);
+      new PhotoFrame(frameDiv, photo);
+    });
   }
 
   private renderInteractiveLetters() {
